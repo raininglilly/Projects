@@ -1,6 +1,6 @@
 h2 {
-    background-color: cornsilk;
+    background-color: cornsilk; /* makes h2 cornsilk colored */
 }
 div {
-    margin-bottom: 15px;
+    margin-bottom: 20px; /* makes where all divs in html create a 15px margin from the bottom   */
 }
