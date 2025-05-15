@@ -9,7 +9,7 @@
 body{
   font-family: Arial, sans-serif;
   text-align: center;
-  background: #fdf6ff;
+  background: #ffdfec77;
 }
 
 /* 2×2 grid for the pads */
@@ -30,11 +30,11 @@ body{
   cursor: pointer;
   transition: opacity .15s ease;  /* smooth fade */
 }
-
-#green  {background:#266f45;}
-#red    {background:#872727;}
-#yellow {background:#ac9636;}
-#blue   {background:#284a8f;}
+/* changed colors */ 
+#green  {background:#9cceb1;} 
+#red    {background:#ffbebe;}
+#yellow {background:#f6e69d;}
+#blue   {background:#bccff6;}
 
 /* --- Lit state (JS toggles this class) --- */
 .lit{

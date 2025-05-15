@@ -6,10 +6,10 @@
 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="中文"> <!-- language change -->
 <head>
   <meta charset="UTF-8">
-  <title>Simon Memory Challenge</title>
+  <title>记忆考试</title>
 
   <!-- Link to external styles so we keep presentation separate -->
   <link rel="stylesheet" href="style.css">
@@ -17,8 +17,8 @@
 <body>
 
   <!-- Simple heading + instructions -->
-  <h1>Simon Says…</h1>
-  <p>Repeat the pattern. How far can you go?</p>
+  <h1>记忆考试</h1> <!--language change translation: memory game--> 
+  <p>看能坚持多久嘿嘿～</p> <!--language change translation: lets see how long you can go hehe~--> 
 
   <!-- The four colored pads live in a 2×2 CSS Grid -->
   <div id="board">
@@ -28,7 +28,7 @@
     <div class="pad" id="blue"></div>
   </div>
 
-  <p>Round: <span id="round">0</span></p>
+  <p>级: <span id="round">0</span></p>
 
   <!-- Link our JavaScript *after* the HTML so the DOM exists when JS runs -->
   <script src="game 2.js"></script>
