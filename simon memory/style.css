@@ -31,10 +31,10 @@ body{
   transition: opacity .15s ease;  /* smooth fade */
 }
 
-#green  {background:#85f0b2;}
-#red    {background:#ff8484;}
-#yellow {background:#f7e389;}
-#blue   {background:#93b7ff;}
+#green  {background:#266f45;}
+#red    {background:#872727;}
+#yellow {background:#ac9636;}
+#blue   {background:#284a8f;}
 
 /* --- Lit state (JS toggles this class) --- */
 .lit{
