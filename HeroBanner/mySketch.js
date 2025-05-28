@@ -1,3 +1,8 @@
+/*  Circle, District, Hammersmith and City, Metropolitan" by Lee Doughtyhttps://openprocessing.org/sketch/2502573License 
+// CreativeCommons Attribution NonCommercial ShareAlikehttps://creativecommons.org/licenses/by-nc-sa/3.0 */
+    
+
+
 const SHAPE_SIZE = 160; //changed shape size from 130 to 160
 const PADDING = SHAPE_SIZE * 0.35; //changed padding from 0.25 to 0.35
 const GRIDBOX = SHAPE_SIZE + PADDING; 
@@ -15,9 +20,17 @@ let angleDistrict = 0;
 let angleHammersmith = 0;
 let animatingDistrict = true; // Flag to control which animation is active
 
+let myCanvas; // Declare a variable to hold the canvas element
+
+function windowResized(){
+  // Keep banner responsive on window resize
+  resizeCanvas(windowWidth, windowHeight * 0.6);
+}
+
 function setup() {
-  // Create the canvas with window dimensions
-  createCanvas(windowWidth, windowHeight);
+  // Create the canvas with window dimensions and set its parent
+  myCanvas = createCanvas(windowWidth, windowHeight * 0.6);
+  myCanvas.parent('canvas-container'); // Attach the canvas to the div with id 'canvas-container'
   // Set angle mode to degrees for easier rotation calculations
   angleMode(DEGREES);
   // Set the frame rate
