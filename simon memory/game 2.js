@@ -78,7 +78,7 @@ function handleClick(chosen) {
       setTimeout(nextRound, 800);
     }
   } else {
-    alert("错咯～! 最高级: " + sequence.length); //changed alert translation: wrong~! hightest level: 
+    alert("错喽～! 最高级: " + sequence.length); //changed alert translation: wrong~! hightest level: 
     resetGame();
   }
 }
